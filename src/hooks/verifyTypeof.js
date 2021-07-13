@@ -1,5 +1,3 @@
-function verifyTypeof(value) {
+export const verifyTypeof = (value) => {
   return typeof value;
 }
-
-export default verifyTypeof;

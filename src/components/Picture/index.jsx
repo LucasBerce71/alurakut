@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import verifyTypeof from '../../hooks/verifyTypeof';
+import { verifyTypeof } from '../../hooks/verifyTypeof';
 
 function Picture({ source, radius, ...rest }) {
   return (
